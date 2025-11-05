@@ -8,7 +8,7 @@ export default async function Home() {
         art = await getData()
     } catch {
         // We already logged in getData.ts so we can also show something to the user
-        return <p className="p-8"> Unable to load Artwork :(</p>
+        return <p className="p-8 min-h-screen"> Unable to load Artwork :(</p>
     }
 
 
